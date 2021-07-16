@@ -1,0 +1,140 @@
+/* TEXT */
+/* DARK TEXT HIGHLIGHTED BLUE LINKS */
+/* LESS MARGINS */
+/* CENTERED TEXT */
+p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+h1 { /* ADDED AUDIOWIDE GOOGLE FONT REMEMBER TO LINK */
+    font-size: 60px;
+    font-family: 'Audiowide', 'Lucida Sans';
+    text-align: left;
+    color: #009FB7;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 100);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* CONTAINERS */
+/* LIGHTER BACKGROUND THEME WITH LESS MARGIN */
+body {
+    background-color :#b3b3b3;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #b3b3b3;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-block-start: 0%;
+    margin-inline-end: 0%;
+    margin: 0px;
+    padding: 0px;
+}
+/* DASHED HORIZONTAL LINES */
+hr {
+    color: #0000;
+    border: 3px dashed rgba(0, 0, 0, 50);
+    border-radius: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+/* GOAL: REMOVE SPACE AT TOP AND BOTTOM OF PAGE */
+header {
+    background-image: url("images/darkstripeheader.jpg") ; /* FINAL CHOICE: DARK STRIPED */
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-image: url("images/darkstripeheader.jpg") ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 130px;
+}
+
+/* TRYING MY BEST TO CENTER */
+img {
+    width: 525px;
+    height: 100%;
+    object-position: center;
+    border-radius: 5%;
+    margin-left: 31%;
+    margin-right: 31%;
+}
+/* BOTH NAV BARS ON LOWER-RIGHT SIDE */
+nav {
+    text-align: right;
+}
+/* LINKS */
+/* REMEMBER LV HS
+/* UNVISITED */
+a:link {
+    color: #009FB7;
+}
+  
+  /* VISITED */
+a:visited {
+    color: #235789;
+}
+  
+  /* HOVER */
+a:hover {
+    color: #FED766;
+}
+  
+  /* SELECTED */
+a:active {
+    color: #EFF1F3;
+}
+/* I LIKE THESE BUTTONS */
+/* ROUNDED STYLING HIGLIGHTED BLUE TEXT */
+.btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #17181a;
+    border-color: #cdd0d3;
+    text-align: right;
+}
